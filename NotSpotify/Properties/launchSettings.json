@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NotSpotify (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NotSpotify (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
