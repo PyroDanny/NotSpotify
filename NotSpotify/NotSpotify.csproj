@@ -15,6 +15,7 @@
   <ItemGroup>
     <None Remove="Views\ArtistView.xaml" />
     <None Remove="Views\Components\PlaylistListView.xaml" />
+    <None Remove="Views\Components\SettingsView.xaml" />
     <None Remove="Views\HomeView.xaml" />
     <None Remove="Views\PlaylistView.xaml" />
     <None Remove="Views\SearchView.xaml" />
@@ -67,6 +68,11 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\Components\SettingsView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\Components\PlaylistListView.xaml">
